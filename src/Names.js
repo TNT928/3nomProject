@@ -18,7 +18,7 @@ const Names = ({fetchCategories, speakers}) => {
 
                 return (
                   <Dropdown.Item key={mainSpeaker.id} onClick={() => fetchCategories(id)}>
-                    {mainSpeaker.speaker} {mainSpeaker.id}
+                    {mainSpeaker.speaker}
                     <br />
                     <br />
                   </Dropdown.Item>
